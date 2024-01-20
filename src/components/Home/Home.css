@@ -1,0 +1,41 @@
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('image.jpeg'); 
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .left-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .right-content {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .text-box {
+    transform: skew(-5deg); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 50px;
+    width: 40%;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 20px; 
+  }
+  
+  .main-heading {
+    font-size: 56px;
+    margin: 0 20px 0 0; 
+   
+  }
+  
+  .description {
+    font-size: 28px; 
+    margin: 0; 
+    width: 50%;
+}
